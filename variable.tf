@@ -14,6 +14,16 @@
  * limitations under the License.
  */
 
+variable "credentials" {
+
+type = string
+
+}
+
+variable "project" {
+type = string
+}
+
 variable "project_id" {
   description = "The ID of the project where this VPC will be created"
   type        = string
